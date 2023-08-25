@@ -1,7 +1,8 @@
-
 // import viteLogo from '/vite.svg'
-import reactLogo from './assets/react.svg'
-// import './App.css'
+import './App.css';
+import Footer from './components/Footer';
+import MainContent from './components/MainContent';
+import Header from './components/Header';
 
 // const App = () => {
 //   return (
@@ -23,22 +24,14 @@ import reactLogo from './assets/react.svg'
 
 const App = () => {
   return (
-    <>
-    <header>
-      <nav>
-        <img src={reactLogo}/>
-      </nav>
-    </header>
-    <h1>Why I&apos;m learning React?</h1>
-    <ol>
-      <li>It&apos;s fun</li>
-      <li>It&apos;s beautiful</li>
-      <li>It&apos;s high demanded on the market</li>
-      <li>You can develop amazing this with this</li>
-    </ol>
-    <footer>© 2023 Ceballos development. All rights reserved.</footer>
-    </>
-  )
-}
+    <div className='main-container'>
+      <div className='card'>
+        <Header />
+        <MainContent />
+        <Footer />
+      </div>
+    </div>
+  );
+};
 
-export default App
+export default App;
