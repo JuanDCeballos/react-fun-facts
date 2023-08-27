@@ -1,14 +1,15 @@
 const MainContent = () => {
   return (
-    <>
-      <h1 className='title'>Why I&apos;m learning React?</h1>
-      <ol className='list-items'>
-        <li>It&apos;s fun</li>
-        <li>It&apos;s beautiful</li>
-        <li>It&apos;s high demanded on the market</li>
-        <li>You can develop amazing this with this</li>
-      </ol>
-    </>
+    <div className='content-container'>
+      <h1>Fun facts about React</h1>
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on Github</li>
+        <li>Is maintained by Facebook</li>
+        <li>Power thousands of enterprise app, including mobile apps</li>
+      </ul>
+    </div>
   );
 };
 
