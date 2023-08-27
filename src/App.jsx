@@ -1,4 +1,3 @@
-// import viteLogo from '/vite.svg'
 import './App.css';
 import MainContent from './components/MainContent';
 import Navbar from './components/Navbar';
